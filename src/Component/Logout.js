@@ -23,7 +23,7 @@ class Logout extends Component {
         }
         return ( 
             <div>
-                <h1> this is logout page</h1>
+                <h1> this is with page</h1>
                 <button type="button" onClick={this.handleLogout}>logout</button>
             </div>
          );
