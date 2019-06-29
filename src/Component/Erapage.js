@@ -6,7 +6,7 @@ import {Redirect} from 'react-router-dom';
 class Erapage extends Component {
     state = {  }
     render() { 
-        if(cookie.getCookie('userId').value ===""){
+        if(cookie.getCookie('userId')===""){
             return <Redirect to= '/'/>
         }
         return ( 

@@ -18,7 +18,7 @@ class Logout extends Component {
     }
 
     render() { 
-        if(cookie.getCookie('userId').value ===""){
+        if(cookie.getCookie('userId')===""){
             return <Redirect to= '/'/>
         }
         return ( 

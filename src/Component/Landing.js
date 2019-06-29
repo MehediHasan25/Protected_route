@@ -6,7 +6,7 @@ class Landing extends Component {
     state = {  }
     render() { 
         const {protect}= this.state;
-        if(cookie.getCookie('userId').value ===""){
+        if(cookie.getCookie('userId')===""){
             return <Redirect to= '/'/>
         }
         return ( 

@@ -6,7 +6,7 @@ import {Redirect} from 'react-router-dom';
 class Mypage extends Component {
     state = {  }
     render() { 
-        if(cookie.getCookie('userId')!==""){
+        if(cookie.getCookie('userId')===""){
             return <Redirect to= '/'/>
         }
         return ( 
