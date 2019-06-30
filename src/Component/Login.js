@@ -16,6 +16,13 @@ class Login extends Component {
       
     }
 
+    //when you are already logged in and you want to see login page again use this
+    // componentDidMount(){
+    //     if(cookie.getCookie('userId') !==""){
+    //         return <Redirect to= '/'/>
+    //     }
+    // }
+
 
 
 
